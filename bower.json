@@ -1,0 +1,24 @@
+{
+    "name": "feiye-invitation",
+    "version": "0.0.1",
+    "homepage": "https://github.com/chuzhengcn/invitation",
+    "authors": [
+        "chuzheng"
+    ],
+    "description": "feiye-invitation",
+    "main": "app.js",
+    "moduleType": [
+        "node"
+    ],
+    "keywords": [
+        "invitation",
+        "weixin"
+    ],
+    "license": "MIT",
+    "private": true,
+    "dependencies" : {
+        "jquery" : "2.x",
+        "bootstrap" : "3.x",
+        "angular" : "*"  
+    }
+}
