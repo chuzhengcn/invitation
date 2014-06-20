@@ -3,5 +3,24 @@ html
     head
         include ./includes/head
     body
-        .container-fluid
+        .swiper-container
+            .swiper-wrapper
+                .swiper-slide.red-slide
+                    .title Slide 1
+                .swiper-slide.blue-slide
+                    .title Slide 2
+                .swiper-slide.orange-slide
+                    .title Slide 3
+                .swiper-slide.green-slide
+                    .title Slide 4
+                .swiper-slide.pink-slide
+                    .title Slide 5
+                .swiper-slide.red-slide
+                    .title Slide 6
+                .swiper-slide.blue-slide
+                    .title Slide 7
+                .swiper-slide.orange-slide
+                    .title Slide 8
+            .pagination
         include ./includes/script
+        script(src="/static/js/index.js")
