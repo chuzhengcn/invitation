@@ -2,6 +2,7 @@
     var mySwiper = new Swiper('.swiper-container',{
         // pagination: '.pagination',
         // paginationClickable: true,
+        speed : 750,
         mode: 'vertical',
         progress: true,
         onProgressChange: function(swiper){
