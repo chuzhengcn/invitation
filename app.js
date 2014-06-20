@@ -35,13 +35,14 @@ mongoose.connection.on('disconnected', function () {
 app.enabled('trust proxy');
 app.set("title", pkg.name)
 app.set("port", env.port);
+app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 // middleware ----------------------------------------------------------------------------------------
 app.use(morgan("dev"));
 app.use(compression());
-app.use("/static", serveStatic('bower_components'));
-app.use("/static", serveStatic('public'));
+app.use("/static", serveStatic(path.join(__dirname,'bower_components')));
+app.use("/static", serveStatic(path.join(__dirname,'public')));
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded());
