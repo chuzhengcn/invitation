@@ -1,5 +1,5 @@
 var express         = require("express"),
-    env             = require("./env.js"),
+    env             = require("./fy_env.js"),
     mongoose        = require("mongoose"),
     jade            = require("jade"),
     path            = require("path"),
