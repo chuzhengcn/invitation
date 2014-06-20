@@ -19,6 +19,8 @@
     "dependencies" : {
         "jquery" : "2.x",
         "bootstrap" : "3.x",
-        "angular" : "*"  
+        "angular" : "*",
+        "swiper"  : "*",
+        "swiper-smooth-progress" : "*"  
     }
 }
